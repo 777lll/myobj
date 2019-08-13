@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: calc(100*100vw/600);
+}
+body{
+    font-size: 0.24rem;
+    background-color: #F6F6F6;
+}
+.content3 img{
+    width: 0.94rem;
+    height: 0.94rem;
+}
+.box-item1{
+    /* flex-direction: row; */
+    text-align: center;
+    flex: 1;
+}
+.content1{
+    color: red;
+    font-size: 0.26rem;
+}
+.content2{
+    font-weight: lighter;
+    font-size: 0.20rem;
+}
+
+/* .content1,.content2{
+    text-align: center;
+    flex: 1;
+} */
+.content{
+    margin: 0.15rem;
+    background-color: #fff;
+    border-radius: 0.1rem;
+    display: flex;
+  
+}
